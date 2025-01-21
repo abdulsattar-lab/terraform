@@ -11,7 +11,7 @@ variable "ami_id" {
 
 variable "instance_type" {
     type = string
-    #default = "t3.micro"
+    # default = "t3.micro"
 }
 
 variable "tags" {
@@ -26,7 +26,7 @@ variable "tags" {
 }
 
 variable "sg_name" {
-    default = "allow_sshh"
+    default = "allow_ssh"
 }
 
 variable "sg_description" {
